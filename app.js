@@ -1,6 +1,6 @@
 const proClubsApi = require('./lib/index');
 const stub = require('./stub/data');
-
+const
 
 const run = async () => {
     proClubsApi.club.platformType('XBOXONE');
