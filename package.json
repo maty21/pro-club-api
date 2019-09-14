@@ -4,7 +4,8 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
   },
   "keywords": [],
   "author": "",
@@ -12,6 +13,12 @@
   "dependencies": {
     "@mixer/client-node": "^3.5.0",
     "axios-retry": "^3.1.2",
+    "express": "^4.17.1",
     "fifa-api-proclubs": "^1.0.3"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.2.0",
+    "sinon": "^7.4.2"
   }
 }
