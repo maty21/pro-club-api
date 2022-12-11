@@ -13,7 +13,7 @@
   "dependencies": {
     "@mixer/client-node": "^3.5.0",
     "axios-retry": "^3.1.2",
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "fifa-api-proclubs": "^1.0.3"
   },
   "devDependencies": {
